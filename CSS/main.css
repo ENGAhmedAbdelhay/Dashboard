@@ -204,7 +204,6 @@ aside ul li a span {
     margin-right: 20px;
 }
 .wrapper .welcome h2 {
-    padding: 15px;
 }
 @media (max-width: 767px) {
     .wrapper {
@@ -213,4 +212,52 @@ aside ul li a span {
         margin-right: 10px;
         gap: 10px;
     }
+    /* .welcome .avatar {
+        margin: 0;
+    } */
+}
+.welcome .intro img {
+    width: 200px;
+    margin-bottom: -15px;
+}
+.welcome .avatar {
+    width: 64px;
+    height: 64px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: 0 0 5px #ddd;
+    margin-left: 20px;
+    margin-top: -32px;
+}
+.welcome .body {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.welcome .body > div {
+    flex: 1;
+}
+.welcome .visit {
+    margin: 0 15px 15px auto;
+    transition: 0.3s;
+}
+.welcome .visit:hover {
+    background-color: var(--blue-alt-color);
+}
+@media (max-width: 767px) {
+    .welcome .body > div:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .intro {
+        padding: 40px;
+        justify-content: center;
+    }
+}
+
+.save {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.save:hover {
+    background: var(--blue-alt-color);
 }
