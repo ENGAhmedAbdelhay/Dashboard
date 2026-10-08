@@ -26,6 +26,9 @@
 .fjsb {
     justify-content: space-between;
 }
+.f-wrap {
+    flex-wrap: wrap;
+}
 .bg-white {
     background-color: #fff;
 }
@@ -118,17 +121,23 @@
     top: 0;
     transform: translate(-50%, -50%);
 }
-.f-wb{
+.f-wb {
     font-weight: bold;
 }
 .txc {
     text-align: center;
+}
+.tfs13 {
+    font-size: 13px;
 }
 .tfs14 {
     font-size: 14px;
 }
 .tfs15 {
     font-size: 15px;
+}
+.tfs25 {
+    font-size: 25px;
 }
 .rad-6 {
     border-radius: 6px;
