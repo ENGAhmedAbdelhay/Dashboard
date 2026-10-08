@@ -18,6 +18,11 @@
     align-items: center;
     justify-content: space-between;
 }
+.facjc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .fjsb {
     justify-content: space-between;
 }
@@ -29,6 +34,12 @@
 }
 .bg-blue {
     background-color: #0075ff;
+}
+.bg-orange {
+    background-color: #f59e0b;
+}
+.bg-green {
+    background-color: #22c55e;
 }
 .c-black {
     color: black;
@@ -107,11 +118,17 @@
     top: 0;
     transform: translate(-50%, -50%);
 }
+.f-wb{
+    font-weight: bold;
+}
 .txc {
     text-align: center;
 }
 .tfs14 {
     font-size: 14px;
+}
+.tfs15 {
+    font-size: 15px;
 }
 .rad-6 {
     border-radius: 6px;
