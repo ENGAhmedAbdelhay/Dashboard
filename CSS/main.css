@@ -503,7 +503,131 @@ aside ul li a span {
 .reminders ul li > .orange {
     border-left: 2px solid var(--orange-color);
 }
+.latest-post .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.post-icon {
+    position: absolute;
+    right: 15px;
+    top: 30px;
+}
+.latest-post .top {
+    border-radius: 20px;
+}
+.latest-post .post-parent {
+    background: white;
+    border: 2px solid #eee;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 15px 0px #ddd;
+}
+.post-content-text {
+    font-weight: bold;
+    font-style: oblique;
+    font-family: fangsong;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    min-height: 140px;
+}
+.social-media .box {
+    padding-left: 70px;
+    transition: 0.3s;
+}
+.social-media .box i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 52px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-media .box:hover {
+    border-radius: 20px;
+    scale: 1.1;
+}
+.social-media .box:hover i {
+    transform: scale(1.25) rotate(10deg); 
+    border-radius: 30%;
+}
 
+.social-media .twitter {
+    background-color: #1da1f233;
+}
+.social-media .twitter:hover i {
+    filter: drop-shadow(0 0 5px #1da1f2); 
+}
+.social-media .twitter i ,
+.social-media .twitter a {
+    background-color: #1da1f2;
+}
+
+
+.social-media .facebook {
+    background-color: #1877f233;
+}
+.social-media .facebook:hover i {
+    filter: drop-shadow(0 0 5px #1877f2); 
+}
+.social-media .facebook i ,
+.social-media .facebook a {
+    background-color: #1877f2;
+}
+
+
+.social-media .linkedin {
+    background-color: #0a66c233;
+}
+.social-media .linkedin:hover i {
+    filter: drop-shadow(0 0 5px #0a66c2); 
+}
+.social-media .linkedin i ,
+.social-media .linkedin a {
+    background-color: #0a66c2;
+}
+
+
+.social-media .youtube {
+    background-color: #ff000033;
+}
+.social-media .youtube:hover i {
+    filter: drop-shadow(0 0 5px #ff0000); 
+}
+.social-media .youtube i ,
+.social-media .youtube a {
+    background-color: #ff0000;
+}
+
+.social-media .instagram {
+    background: linear-gradient(45deg, #f0943333 0%, #e6683c33 25%, #dc274333 50%, #cc236633 75%, #bc188833 100%);
+}
+
+.social-media .instagram:hover i {
+    filter: drop-shadow(0 0 5px #dc2743); 
+}
+
+.social-media .instagram i,
+.social-media .instagram a {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+.social-media .github {
+    background-color: #24292e33; 
+}
+
+.social-media .github:hover i {
+    filter: drop-shadow(0 0 5px #24292e); 
+}
+
+.social-media .github i,
+.social-media .github a {
+    background-color: #24292e;
+}
 @keyframes change-color {
     from {
         background-color: var(--blue-color);
